@@ -1,20 +1,24 @@
 import { Application, Graphics } from "pixi.js";
 
-enum Direction {
-  Up,
-  Left,
-  Down,
-  Right
-}
+import { Direction, Coordinate, Snake } from "./constants/constant";
 
-type Coordinate ={
-  x:number , y:number
-}
-type Snake ={
-  head : Coordinate,
-  body:Array<Coordinate>,
-  direction : Direction
-}
+
+
+// enum Direction {
+//   Up,
+//   Left,
+//   Down,
+//   Right
+// }
+
+// type Coordinate ={
+//   x:number , y:number
+// }
+// type Snake ={
+//   head : Coordinate,
+//   body:Array<Coordinate>,
+//   direction : Direction
+// }
 
 (async () => {
 
