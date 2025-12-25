@@ -1,11 +1,11 @@
-# 🐍 Simple Snake Game (PixiJS)
+#  Simple Snake Game (PixiJS)
 
 This is a very basic Snake game built using **PixiJS** and **TypeScript**.  
 The goal of this project is to understand **game loop, x-y positioning, and illusion of movement** — not performance optimization.
 
 ---
 
-## 📦 Tech Used
+##  Tech Used
 
 - PixiJS
 - TypeScript
@@ -13,7 +13,7 @@ The goal of this project is to understand **game loop, x-y positioning, and illu
 
 ---
 
-## 🧱 Grid System
+##  Grid System
 
 - Each block (snake head, body, food) is of size `20 x 20`
 - The game works on a grid, not free pixels
@@ -99,9 +99,9 @@ if (snake.direction === Direction.Left) {
 }
 
 
-🎭 Illusion of Body Movement
-❌ Body blocks do NOT move
-✅ Only new positions are drawn every frame
+ Illusion of Body Movement
+ Body blocks do NOT move
+ Only new positions are drawn every frame
 
 bodyGraphic.removeChildren();
 Removes all old grey blocks from screen
